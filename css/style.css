@@ -1,0 +1,402 @@
+/*font-family: 'Open Sans', sans-serif;*/
+/*font-family: 'Raleway', sans-serif;*/
+*{
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
+}
+/*header start*/
+header{
+	background-color:black;
+	padding: 10px 0; 
+}
+.btn-toggler{
+	background-color: white;
+	color:black;
+}
+.menu ul li a{
+	font-weight: 600;
+	font-size: 14px;
+	color: #ffffff !important ;
+	text-transform: capitalize;
+	padding: 0 25px !important;
+	transition: .3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #86878b !important;
+}
+.list{
+	background-color:white;
+	
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+.contant{
+	padding: 120px 0;
+}
+.ax{
+	color: white;
+	
+	font-weight: 700;
+}
+.it{
+	color: #f28437;
+	font-weight: normal;
+	
+}
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	color: #ffffff ;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+.line{
+	border: 2px solid #ffffff;
+	width: 70px;
+	
+}
+.text{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 40px 0;
+}
+.custom-card{
+	margin-top: 182px;
+}
+.box,.box2{
+	font-weight: 600;
+	font-size: 15px;
+	text-transform: capitalize;
+	border-radius: 0px;
+}
+.heading{
+	background-color: #F5F5F5;
+}
+.head,.slide-head,.sub{
+	font-weight: 700;
+	font-size: 20px;
+	color: #333333;
+}
+.FREE{
+	color: #ff9b51;
+}
+.custom-from,.custom-from1{
+	font-size: 14px;
+	color: #bdbdbd;
+	text-transform: capitalize;    
+}
+.email{
+	margin: 30px 0;
+}
+.foot{
+	background-color: #ff9b51;
+	margin-top: 23px;
+}
+.foot a{
+	font-weight: 600;
+	font-size: 15px;
+	text-decoration: none !important;
+	transition: .3s;
+	color:white;
+}
+.foot:hover{
+	background-color: #86878b !important;
+}
+/*banner end*/
+
+/*social media start*/
+.social-contant{
+	margin: 20px 0;
+}
+.icons{
+	margin: 20px 0;
+}
+.media{
+	font-weight: 700;
+	font-size: 20px;
+	color:#333333;
+}
+.social-text{
+	font-size: 14px;
+
+}
+ul li a{
+	font-size: 48px;
+	padding: 0 18px;
+
+}
+ul li:last-child a{
+	padding-right: 0 !important;
+}
+/*social media end*/
+/*slide strat*/
+.slide{
+	background-color: #f5f5f5;
+}
+.one{
+	padding:  120px 0 ;
+}
+.tab1{
+	height: 85px;
+	width: 85px;
+	background-color: black !important;
+	color: white !important;
+	border-bottom-color: white !important;
+}
+.tab1:hover{
+	background-color: #ff8b38 !important;
+}
+.tab1.active{
+	background-color: #ff8b38 !important;
+}
+.two{
+	padding:  120px 0 ;
+}
+.slide-head{
+	color: #000000;
+}
+.slide-text,.paragraph{
+	font-size: 14px;
+}
+.box2{
+	background-color: #ff8b38;
+}
+/*slide end*/
+/*blog1 start*/
+.blog{
+	background-color: wheat;
+}
+.sub{
+	color: #212121;
+}
+.line2{
+	border: 2px solid  #ff8b38;
+	width: 70px;
+	margin: 20px 0;
+}
+.circle,.circle2{
+	width: 45px;
+	height: 45px;
+	border: 2px solid #ff8b38;
+	border-radius: 50%;
+}
+.circle i,.circle2 i{
+	color: #ff8b38;
+	font-size: 20px;
+	margin: 11px 9px
+}
+.Title{
+	font-weight: 600;
+	font-size: 14px;
+	color: #212121;
+}
+.all{
+	padding: 40px 0;
+}
+.blog-text{
+	font-size: 14px;
+}
+/*blog1 end*/
+/*blog 2 start*/
+.blog2-h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	color: black;
+}
+.line3{
+	border: 2px solid  #ff8b38;
+	width: 70px;
+	margin: 20px auto;
+}
+.thought{
+	margin-top: 60px;
+}
+.circle2 {
+
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+.circle2 i{
+	font-size: 32px;
+} 
+.circle-h2{
+	font-weight: 700;
+	font-size: 20px;
+	color: #333333;
+	margin: 30px 0;
+}
+.circle-text{
+	font-size: 14px;
+}
+/*blog 2 end*/
+/*blog3 start*/
+.blog3{
+	background-color: #f5f5f5;
+}
+.blog3-h1,.blog5-h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 36px;
+	color: #212121;
+}
+.custom-heading{
+	font-weight: 700;
+	font-size: 20px;
+	background-color: #333333;
+	color:white;
+	border-bottom: 2px solid white;
+}
+.about{
+	margin-top: 60px;
+}
+.custom-card1{
+	background-color: #333333;
+	border-bottom: 4px solid #ff8b38;
+}
+.custom-card2{
+	background-color: #333333;
+}
+.doler{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 700;
+	font-size: 33px;
+	color:white;
+}
+.money{
+	color:white;
+	font-size: 90px;
+}
+.doler-text{
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.middel{
+	box-shadow: 0 4px 30px 0 rgba(0,0,0,0.9);
+}
+.card-custom{
+	transition: 0.9s
+}
+.card-custom:hover{
+	transform: scale(1.1);
+}
+.populer{
+	font-weight: 700;
+	font-size: 14px;
+	background-color: #ff8b38;
+	margin-top: -1px;   
+	color: white;
+}
+.amuont{
+	margin-top: 42px;	
+}
+.life li{
+	font-size: 14px;
+}
+/*blog3 end*/
+/*blog4 start*/
+#talkbubble {
+	width: 272px;
+	height: 140px;
+	background: #f5f5f5;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 0px;
+}
+#talkbubble:before {
+	content: "";
+	position: absolute;
+	left: 32px;
+	top: 140px;
+	width: 0;
+	height: 0;
+	border-top: 30px solid #f5f5f5;
+	border-right: 18px solid transparent;
+	border-left: 18px solid transparent;
+}
+.blog4-text{
+	padding: 11px;
+}
+.blog4-contant {
+	font-size: 14px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	transition: 0.5s	
+} 
+.blog4-contant:hover{
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.1);
+}
+.pictures {
+	width: 73px;
+	height: 73px;
+	border-radius: 50%;
+	margin-top: 41px;
+}
+.manager{
+	margin-top: 57px;
+}
+.jermany{
+	font-size: 20px;
+	font-weight: 700;
+	color: black;
+}
+/*blog4 end*/
+/*blog5 start*/
+.blog5{
+	background-image: url(../images/back.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.blog5-contant{
+	margin: 80px 0 50px 0;
+}
+.blog5-h1{
+	color: white;
+}
+.use{
+	margin-bottom: 50px;
+}
+/*blog5 end*/
+/*blog6 start*/
+.s-form{
+	margin-top: 50px;
+}
+.custom-from1{
+	margin-bottom: 10px;
+}
+.send{
+	margin-top: 35px; 
+}
+.send1{
+	font-weight: 600;
+	font-size: 15px;
+	background-color: #ff9b51;
+	color: white;
+	border-radius: 0;
+}
+/*blog6 end*/
+/*footer start*/
+.footer{
+	background-color: black;
+}
+.icon1{
+	font-size: 20px
+}
+.footer-text{
+	font-size: 12px;
+}
+/*footer end*/
