@@ -6,94 +6,84 @@
 		padding: 0 !important;
 		text-align: right !important;
 	}
+	.con-tact{
+	margin-right: 0px;
+}
+.sign{
+	text-align: right;
+}
 	/*header end*/
 	/*banner start*/
-	.contant {	
-		padding: 25px 0;
-		text-align: center;
-	}
-	h3 {   
-		font-size: 16px;    
-		margin: 10px 0;
-		line-height: 25px;    
-	}
-	.custom-card {
-		margin-top: 0px;
-		margin-bottom:65px;
-	}
-	.head {
-		font-size: 18px;
-	}
-	.email {
-		margin: 20px 0;
-	}
-	.foot {
-		margin-top: 20px;
-	}
+	.contant{
+    padding: 70px 0 0 0;
+}
+			.banner-m {
+    font-size: 17px;
+    margin: 20px 0;
+    line-height: 25px;
+}
+.text {
+    font-size: 16px;
+    margin: 20px 0;
+  
+}
+.banner-form {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
 	/*banner end*/
-	/*social media start*/
-	.media {
-		margin: 0 82px;
-	}
-	.social-text {
-		text-align: center;
-	}
-	.icons {
-		margin: 0;
-		text-align: center;
-	}
-	ul li a {
-		font-size: 26px;
-		padding: 0px 3px;
-	}
-	/*social media end*/
+	
 	/*slide strat*/
-	.slide-content{
-		margin: 35px 0;
-	}
-	.slide-head {
-		text-align: center;
-	}
-	.box2 {	
-		margin: 0 97px;
-	}
+		.slide {
+    padding: 30px 0 40px 0;
+}
+	.slide-head{
+    font-size: 16px;
+}
+.slide-text {
+    margin: 30px 0;
+}
+.download{
+	margin: 30px auto;
+}
 	/*slide end*/
-	/*blog1 start*/
-	.onee{
-		margin: 25px 0;
-	}
-	.twoo{
-		margin: 25px 0;
-	}
-	/*blog1 end*/
+	/*blogx start */
+	.blog,.blogx,.blog2,.blog3,.blog4,.blog5,.blog6{
+		padding: 70px 0 80px 0;
+}
+.slide-content1{
+	    margin-top: 0px;
+}
+ /*blog end*/
 	/*blog 2 start*/
-	.one {
-		padding: 80px 0;
-	}
-	.thought {
-		margin-top: 20px;
-	}
-	.circle-h2 {
-		margin: 12px 0;
-	}
+	.blog2-h1,.blog4-h1 {
+    font-size: 22px;
+}
+.thought {
+    margin-top: 30px;
+}
+.blog2-text {
+    letter-spacing: 0px;
+}
 	/*blog 2 end*/
-	/*blog4 star*/
-	.about{
-		margin-top: 30px;
-	}
-	.blog4-contant{
-		margin-bottom: 100px;
-	}
-	/*blog4 end*/
-	/*blog6 start*/
-	.s-form{
-		margin-top: 20px;
-	}
-	/*blog6 end*/
-	.icon1 {
-		font-size: 14px;
-		margin-top: 20px;
-	}
+	/*blog 3 start*/
+	.blog3-contant {
+    margin-bottom: 30px;
+}
+/*blog 3 end*/
+/*blog4 start*/
+
+.client-cmt {
+    margin-top: 30px;
+}
+
+/*blog 3 end*/
+.icon1 {
+    font-size: 18px;
+}
+.icon1 li{
+	    margin: 0 5px;
+}	
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -102,95 +92,95 @@
 		padding: 0 !important;
 		text-align: right !important;
 	}
+	.con-tact{
+	margin-right: 0px;
+}
+.sign{
+	text-align: right;
+}
 	/*header end*/
 	/*banner start*/
 	.contant {
-		padding: 90px 0;
-	}
-	h3{
-		font-size: 16px;
-		margin: 20px 0;
-		line-height: 24px;
-	}
-	.text {
-		font-size: 14px;
-		margin: 20px 0;
-		text-align: justify;
-	}
-	.custom-card {
-		margin-top: 120px;
-	}
-	.head { 
-		font-size: 12px;
-	}
-	.email {
-		margin: 18px 0;
-	}
-	.foot {
-		margin-top: 13px;
-	}
+    padding: 80px 0 0px 0;
+}
+		.banner-m {
+    font-size: 27px;
+    margin: 37px 0;
+}
+.text {
+    font-size: 16px;
+    margin: 37px 0;
+    text-align: justify;
+}
+.banner-form {
+    margin-top: 37px;
+    margin-bottom: 90px;
+}
 	/*banner end*/
-	/*social media start*/
-	.social-contant {
-		margin: 10px 0;
-		text-align: center;
-	}
-	.media {
-		margin: 0 192px;
-	}
-	.icons {
-		margin: 0;
-	}
-	ul li a {
-		font-size: 38px;
-		padding: 0 13px;
-	}
-	/*social media end*/
+	
 	/*slide strat*/
-	.one {
-		padding: 80px 0;
-	}
-	.two {
-		padding: 80px 0;
-	}
+	.slide{
+    padding: 40px 0 50px 0;
+}
+.slide-head {
+    font-size: 18px;
+}
+.slide-text {
+    font-size: 14px;
+    margin: 20px 0;
+}
+.download{
+	margin: 30px auto;
+}
 	/*slide end*/
-	/*blog1 start*/
-	.sub {	
-		font-size: 14px;
+	/*blogx start */
+	.blog,.blogx,.blog2,.blog3,.blog4,.blog5,.blog6{
+      padding: 80px 0 90px 0;
 	}
-	.onee{
-		margin-top: 83px;
-	}
-	.twoo{
-		margin-top: 83px;
-	}
-	.line2 {	
-		margin: 8px 0;
-	}
-	.whole{
-		margin: 32px 0;
-	}
-	/*blog1 end*/
+	.blog-md-sm{
+	margin-top: 30px;
+}
+	.slide-content1{
+	    margin-top: 0px;
+
+}
+ /*blog end*/
 	/*blog 2 start*/
-	.thought {
-		margin-top: 30px;
-	}
-	.circle-h2 {
-		margin: 20px 0;
-	}
+	.blog2-text {
+    letter-spacing: 0px;
+}
+	
 	/*blog 2 end*/
-	.about{
-		margin-top: 40px;
-	}
-	/*blog6 start*/
-	.s-form{
-		margin-top: 30px;
-	}
-	/*blog6 end*/
+	/*blog 3 start*/
+	.blog3-contant {
+    margin-bottom: 40px;
+}
+/*blog 3 end*/
+
+/*blog4 start*/
+.blog4-h1{
+	font-size: 27px;
+}
+#talkbubble {
+    width: 234px;
+    height: 159px;
+    }
+    #talkbubble:before {
+    top: 159px;
+}
+.s-con-p{
+	  padding: 18px;
+}
+.client-cmt {
+    margin-top: 30px;
+}
+/*blog4 end*/
 	.icon1 {
-		font-size: 14px;
-		margin-top: 20px;
-	}
+    font-size: 26px;
+}
+.icon1 li{
+	    margin: 0 15px;
+}
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -200,105 +190,88 @@
 		padding: 0 !important;
 		text-align: right !important;
 	}
+	.con-tact{
+	margin-right: 0px;
+}
+.sign{
+	text-align: right !important;
+}
 	/*header end*/
 	/*banner start*/
-	.contant {
-		padding: 90px 0;
-	}
-	h3{
-		font-size: 22px;
-		margin: 25px 0;
-	}
-	.text {	
-		margin: 25px 0;
-	}
-	.custom-card {
-		margin-top: 105px;
-	}
-	.head {
-		font-size: 16px;
-	}
+	.banner-m {
+    font-size: 18px;
+    line-height: 25px;
+    margin: 37px 0;
+}
+.text {
+    font-size: 14px;
+    margin: 37px 0;
+    text-align: justify;
+}
 	/*banner end*/
-	/*social media start*/
-	.social-contant {
-		margin: 10px 0;
-		text-align: center;
-	}
-	.social-text {
-		margin-top: 6px;
-	}
-	.media {
-		margin: 0 282px;
-	}
-	.icons {
-		margin: 0;
-		text-align: center; 
-	}
-	ul li a {
-		font-size: 38px;
-		padding: 0 13px;
-	}
-	/*social media end*/
+	
 	/*slide strat*/
+	.slide{
+	padding: 50px 0 60px 0;
+}
 	.slide-head {
-		font-size: 13px;
-	}
-	.one {
-		padding: 80px 0;
-	}
-	.two {
-		padding: 80px 0;
-	}
+    font-size: 15px;
+}
+.slide-text {
+    margin: 30px 0;
+}
+.download{
+	margin: 10px auto 30px;
+}
+
+
 	/*slide end*/
-	/*blog1 start*/
-	.sub {	
-		font-size: 16px;
-	}
-	.onee{
-		margin-top: 50px;
-	}
-	.twoo{
-		margin-top: 70px;
-	}
-	.line2 {		
-		margin: 13px 0;
-	}
-	.whole{
-		margin: 35px 0;
-	}
-	/*blog1 end*/
-	.icon1 {
-		font-size: 14px;
-		margin-top: 20px;
-	}
+	.blog-md-sm{
+	margin-top: 30px;
+}
+	.blog2-h1 {
+    font-size: 33px;
+}
+	/*blogx start */
+	.slide-content1{
+	    margin-top: 0px;
+}
+ /*blogx end*/
+
+/*blog4 start*/
+.blog4-h1{
+	font-size: 27px;
+}
+#talkbubble {
+    width: 321px;
+    height: 124px;
+ }
+ #talkbubble:before {
+    top: 124px;
+}
+.s-con-p{
+	  padding: 20px;
+}
+ /*blog4 end*/
+ .icon1 {
+    font-size: 32px;
+}
+
+	
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
 	/*banner start*/
-	h3 {
-		font-size: 30px;   
-	}
-	/*banner end*/
-	.icons {
-		margin: 34px 0;
-	}
-	ul li a {	
-		padding: 0 10px;
-	}
-	/*slide strat*/
-	.one {
-		padding: 100px 0;
-	}
-	.two {
-		padding: 100px 0;
-	}
-	/*slide end*/
-	/*blog1 start*/
-	.all {
-		padding:  0;
-	}
+	.banner-m {
+    font-size: 30px;
+}
+/*banner end*/
+/*blog1 start*/
+	.slide-text {
+    margin: 30px 0;
+}
 	/*blog1 end*/
 }
 /* custom ex Large devices (desktops, 1200px and up)*/
