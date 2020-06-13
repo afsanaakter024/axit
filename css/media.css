@@ -1,89 +1,86 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
-
 	/*header start*/
 	.menu ul li a{
 		padding: 0 !important;
 		text-align: right !important;
 	}
 	.con-tact{
-	margin-right: 0px;
-}
-.sign{
-	text-align: right;
-}
+		margin-right: 0px;
+	}
+	.sign{
+		text-align: right;
+	}
 	/*header end*/
 	/*banner start*/
 	.contant{
-    padding: 70px 0 0 0;
-}
-			.banner-m {
-    font-size: 17px;
-    margin: 20px 0;
-    line-height: 25px;
-}
-.text {
-    font-size: 16px;
-    margin: 20px 0;
-  
-}
-.banner-form {
-    margin-top: 40px;
-    margin-bottom: 80px;
-}
+		padding: 70px 0 0 0;
+	}
+	.banner-m {
+		font-size: 17px;
+		margin: 20px 0;
+		line-height: 25px;
+	}
+	.text {
+		font-size: 16px;
+		margin: 20px 0;	
+	}
+	.banner-form {
+		margin-top: 40px;
+		margin-bottom: 80px;
+	}
 	/*banner end*/
-	
 	/*slide strat*/
-		.slide {
-    padding: 30px 0 40px 0;
-}
+	.slide {
+		padding: 30px 0 40px 0;
+	}
 	.slide-head{
-    font-size: 16px;
-}
-.slide-text {
-    margin: 30px 0;
-}
-.download{
-	margin: 30px auto;
-}
+		font-size: 16px;
+	}
+	.slide-text {
+		margin: 30px 0;
+	}
+	.download{
+		margin: 30px auto;
+	}
 	/*slide end*/
 	/*blogx start */
 	.blog,.blogx,.blog2,.blog3,.blog4,.blog5,.blog6{
 		padding: 70px 0 80px 0;
-}
-.slide-content1{
-	    margin-top: 0px;
-}
- /*blog end*/
+	}
+	.slide-content1{
+		margin-top: 0px;
+	}
+	/*blog end*/
 	/*blog 2 start*/
 	.blog2-h1,.blog4-h1 {
-    font-size: 22px;
-}
-.thought {
-    margin-top: 30px;
-}
-.blog2-text {
-    letter-spacing: 0px;
-}
+		font-size: 22px;
+	}
+	.thought {
+		margin-top: 30px;
+	}
+	.blog2-text {
+		letter-spacing: 0px;
+	}
 	/*blog 2 end*/
 	/*blog 3 start*/
 	.blog3-contant {
-    margin-bottom: 30px;
-}
-/*blog 3 end*/
-/*blog4 start*/
-
-.client-cmt {
-    margin-top: 30px;
-}
-
-/*blog 3 end*/
-.icon1 {
-    font-size: 18px;
-}
-.icon1 li{
-	    margin: 0 5px;
-}	
+		margin-bottom: 30px;
+	}
+	/*blog 3 end*/
+	/*blog4 start*/
+	.client-cmt {
+		margin-top: 30px;
+	}
+	/*blog 3 end*/
+	/*footer start*/
+	.icon1 {
+		font-size: 18px;
+	}
+	.icon1 li{
+		margin: 0 5px;
+	}
+	/*footer end*/	
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -93,94 +90,92 @@
 		text-align: right !important;
 	}
 	.con-tact{
-	margin-right: 0px;
-}
-.sign{
-	text-align: right;
-}
+		margin-right: 0px;
+	}
+	.sign{
+		text-align: right;
+	}
 	/*header end*/
 	/*banner start*/
 	.contant {
-    padding: 80px 0 0px 0;
-}
-		.banner-m {
-    font-size: 27px;
-    margin: 37px 0;
-}
-.text {
-    font-size: 16px;
-    margin: 37px 0;
-    text-align: justify;
-}
-.banner-form {
-    margin-top: 37px;
-    margin-bottom: 90px;
-}
+		padding: 80px 0 0px 0;
+	}
+	.banner-m {
+		font-size: 27px;
+		margin: 37px 0;
+	}
+	.text {
+		font-size: 16px;
+		margin: 37px 0;
+		text-align: justify;
+	}
+	.banner-form {
+		margin-top: 37px;
+		margin-bottom: 90px;
+	}
 	/*banner end*/
-	
 	/*slide strat*/
 	.slide{
-    padding: 40px 0 50px 0;
-}
-.slide-head {
-    font-size: 18px;
-}
-.slide-text {
-    font-size: 14px;
-    margin: 20px 0;
-}
-.download{
-	margin: 30px auto;
-}
+		padding: 40px 0 50px 0;
+	}
+	.slide-head {
+		font-size: 18px;
+	}
+	.slide-text {
+		font-size: 14px;
+		margin: 20px 0;
+	}
+	.download{
+		margin: 30px auto;
+	}
 	/*slide end*/
 	/*blogx start */
 	.blog,.blogx,.blog2,.blog3,.blog4,.blog5,.blog6{
-      padding: 80px 0 90px 0;
+		padding: 80px 0 90px 0;
 	}
 	.blog-md-sm{
-	margin-top: 30px;
-}
+		margin-top: 30px;
+	}
 	.slide-content1{
-	    margin-top: 0px;
-
-}
- /*blog end*/
+		margin-top: 0px;
+	}
+	/*blog end*/
 	/*blog 2 start*/
 	.blog2-text {
-    letter-spacing: 0px;
-}
-	
+		letter-spacing: 0px;
+	}
 	/*blog 2 end*/
 	/*blog 3 start*/
 	.blog3-contant {
-    margin-bottom: 40px;
-}
-/*blog 3 end*/
-
-/*blog4 start*/
-.blog4-h1{
-	font-size: 27px;
-}
-#talkbubble {
-    width: 234px;
-    height: 159px;
-    }
-    #talkbubble:before {
-    top: 159px;
-}
-.s-con-p{
-	  padding: 18px;
-}
-.client-cmt {
-    margin-top: 30px;
-}
-/*blog4 end*/
+		margin-bottom: 40px;
+	}
+	/*blog 3 end*/
+	/*blog4 start*/
+	.blog4-h1{
+		font-size: 27px;
+	}
+	#talkbubble {
+		width: 234px;
+		height: 159px;
+	}
+	#talkbubble:before {
+		top: 159px;
+	}
+	.s-con-p{
+		padding: 18px;
+	}
+	.client-cmt {
+		margin-top: 30px;
+	}
+	/*blog4 end*/
+	/*footer start*/
 	.icon1 {
-    font-size: 26px;
-}
-.icon1 li{
-	    margin: 0 15px;
-}
+		font-size: 26px;
+	}
+	.icon1 li{
+		margin: 0 15px;
+	}
+	/*footer end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -191,73 +186,69 @@
 		text-align: right !important;
 	}
 	.con-tact{
-	margin-right: 0px;
-}
-.sign{
-	text-align: right !important;
-}
+		margin-right: 0px;
+	}
+	.sign{
+		text-align: right !important;
+	}
 	/*header end*/
 	/*banner start*/
 	.banner-m {
-    font-size: 18px;
-    line-height: 25px;
-    margin: 37px 0;
-}
-.text {
-    font-size: 14px;
-    margin: 37px 0;
-    text-align: justify;
-}
+		font-size: 18px;
+		line-height: 25px;
+		margin: 37px 0;
+	}
+	.text {
+		font-size: 14px;
+		margin: 37px 0;
+		text-align: justify;
+	}
 	/*banner end*/
-	
 	/*slide strat*/
 	.slide{
-	padding: 50px 0 60px 0;
-}
+		padding: 50px 0 60px 0;
+	}
 	.slide-head {
-    font-size: 15px;
-}
-.slide-text {
-    margin: 30px 0;
-}
-.download{
-	margin: 10px auto 30px;
-}
-
-
+		font-size: 15px;
+	}
+	.slide-text {
+		margin: 30px 0;
+	}
+	.download{
+		margin: 10px auto 30px;
+	}
 	/*slide end*/
 	.blog-md-sm{
-	margin-top: 30px;
-}
+		margin-top: 30px;
+	}
 	.blog2-h1 {
-    font-size: 33px;
-}
+		font-size: 33px;
+	}
 	/*blogx start */
 	.slide-content1{
-	    margin-top: 0px;
-}
- /*blogx end*/
-
-/*blog4 start*/
-.blog4-h1{
-	font-size: 27px;
-}
-#talkbubble {
-    width: 321px;
-    height: 124px;
- }
- #talkbubble:before {
-    top: 124px;
-}
-.s-con-p{
-	  padding: 20px;
-}
- /*blog4 end*/
- .icon1 {
-    font-size: 32px;
-}
-
-	
+		margin-top: 0px;
+	}
+	/*blogx end*/
+	/*blog4 start*/
+	.blog4-h1{
+		font-size: 27px;
+	}
+	#talkbubble {
+		width: 321px;
+		height: 124px;
+	}
+	#talkbubble:before {
+		top: 124px;
+	}
+	.s-con-p{
+		padding: 20px;
+	}
+	/*blog4 end*/
+	/*footer start*/
+	.icon1 {
+		font-size: 32px;
+	}
+	/*footer end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -265,13 +256,13 @@
 
 	/*banner start*/
 	.banner-m {
-    font-size: 30px;
-}
-/*banner end*/
-/*blog1 start*/
+		font-size: 30px;
+	}
+	/*banner end*/
+	/*blog1 start*/
 	.slide-text {
-    margin: 30px 0;
-}
+		margin: 30px 0;
+	}
 	/*blog1 end*/
 }
 /* custom ex Large devices (desktops, 1200px and up)*/

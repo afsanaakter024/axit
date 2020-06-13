@@ -25,6 +25,9 @@ header{
 .menu ul li a:hover{
 	color:  #86878b  !important;
 }
+.m-bg-c{
+	background-color: #f5f5f5;
+}
 .cross{
 	padding: 4px 8px !important;
 }
@@ -35,14 +38,18 @@ header{
 .cross:focus{
 	outline: none;
 }
+.form-control2{
+	background-color: #f5f5f5;
+}
+
+
 /*header end*/
 /*banner start*/
 .banner{
 	background-image: url(../images/banner.jpg);
-	background-position: center;
+	background-position:center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 .contant{
 	padding: 90px 0 100px 0;
@@ -64,8 +71,7 @@ header{
 }
 .line{
 	border: 2px solid #ffffff;
-	width: 70px;
-	
+	width: 70px;	
 }
 .text,.use{
 	font-family: 'Raleway', sans-serif;
@@ -81,8 +87,7 @@ header{
 }
 .box,.box3:focus{
 	outline: none;
-	box-shadow: none;
-
+	box-shadow: none !important;
 }
 .banner-form{
 	margin-top: 120px;
@@ -109,11 +114,12 @@ header{
 }
 .btn-f-cus:focus{
 	outline: none;
-	box-shadow: none;
-
+	box-shadow: none !important;
 }
-.form-control1{
+.form-control1,.form-control2{
 	box-shadow: 0 1px;
+	font-family: 'Open Sans', sans-serif;
+	color: #86878b;
 }
 /*banner end*/
 /*slide strat*/
@@ -152,11 +158,11 @@ header{
 }
 .download{}
 .box2,.custom-from1:focus{
-	outline: none;
-	box-shadow:none;
+	outline: 0;
+	box-shadow:none !important;
 }
 .box2{
-	background-color: #ff8b38 !important;
+	background-color: #ff8b38;
 	color: white;
 }
 .box2:hover{
@@ -193,14 +199,14 @@ header{
 /*blog1 end*/
 /*blogx start */
 .slide-content1{
-	 margin-top: 40px;
+	margin-top: 40px;
 }
- /*blogx end*/
- /*blog 2 start*/
- .slide-text2{
-     font-size: 14px;
- }
- .blog2-h1,.blog4-h1,.blog5-h1{
+/*blogx end*/
+/*blog 2 start*/
+.slide-text2{
+	font-size: 14px;
+}
+.blog2-h1,.blog4-h1,.blog5-h1{
 	font-family: 'Raleway', sans-serif;
 	font-size: 36px;
 	color:#212121;
@@ -212,14 +218,14 @@ header{
 	margin: 20px 0;
 }
 .blog2-text{
-	 font-size: 14px;
-    letter-spacing: 0.4px;
+	font-size: 14px;
+	letter-spacing: 0.4px;
 }
- /*blog2 end*/
- /*blog3 start*/
- .blog3-contant{
- 	margin-bottom: 60px;
- }
+/*blog2 end*/
+/*blog3 start*/
+.blog3-contant{
+	margin-bottom: 60px;
+}
 .custom-heading{
 	font-weight: 700;
 	font-size: 20px;
@@ -272,36 +278,36 @@ header{
 	font-size: 14px;
 }
 /*blog3 end*/
- /*blog4 start */
- .blog4{
-    padding: 90px 0 100px 0;
- }
+/*blog4 start */
+.blog4{
+	padding: 90px 0 100px 0;
+}
 .client-cmt{
 	margin-top: 40px;
 }
 #talkbubble {
-    width: 291px;
-    height: 148px;
-    position: relative;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+	width: 291px;
+	height: 148px;
+	position: relative;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 }
 #talkbubble:before {
-    content: "";
-    position: absolute;
-    right: 100%;
-    top: 148px;
-    width: 0;
-    left: 20px;
-    height: 0;
-    border-left: 13px solid transparent;
-    border-top: 26px solid  #f5f5f5;
-    border-right: 13px solid transparent;
+	content: "";
+	position: absolute;
+	right: 100%;
+	top: 148px;
+	width: 0;
+	left: 20px;
+	height: 0;
+	border-left: 13px solid transparent;
+	border-top: 26px solid  #f5f5f5;
+	border-right: 13px solid transparent;
 }
 .s-con-p{
-	 font-size: 14px;
-	  padding: 21px;
+	font-size: 14px;
+	padding: 21px;
 }
 .client-cmt{
 	background-color: #f5f5f5 !important;
@@ -320,7 +326,7 @@ header{
 	font-weight: 700;
 	color: black;
 }
- /*blog4 end */
+/*blog4 end */
 /*blog5 start*/
 .blog5{
 	background-image: url(../images/back.jpg);
@@ -333,7 +339,7 @@ header{
 	color: white;
 }
 .use{
-  	margin: 0px;  
+	margin: 0px;  
 }
 .box3{
 	margin-top: 40px;
@@ -359,19 +365,19 @@ header{
 	background-color: black;
 }
 .icons{
-	    margin-top: 13px;
+	margin-top: 13px;
 }
 .icon1{
 	font-size: 40px
 }
 .icon1 li{
-	    margin: 0 28px;
+	margin: 0 28px;
 }
 .icon1 li i{
-     transition: 0.5s;
+	transition: 0.5s;
 }
 .icon1 li i:hover{
-     color: white;
+	color: white;
 	transform: scale(1.1);
 }
 .footer-text{
